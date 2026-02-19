@@ -4,6 +4,7 @@ import Strategy.Ducks.*;
 
 public class Main {
   public static void main(String[] args) {
+    System.out.println("Welcome to the Duck Watching Show.");
     FlyBehavior flyWithWings = new FlyWithWings();
     QuackBehavior  loudQuack = new LoudQuack();
     Duck mallardDuck = new MallardDuck("Daisy", flyWithWings, loudQuack);
@@ -29,5 +30,12 @@ public class Main {
     decoyDuck.performFly();
     System.out.println("It can squeak too.");
     decoyDuck.performQuack();
+
+    System.out.println("Ladies and Gentleman... watch this amazing capability!!");
+    System.out.println("Super power in action. Put your goggles and masks on...");
+
+    FlyBehavior flyWithRocket = new FlyWithRocket();
+    decoyDuck.setFlyBehavior(flyWithRocket);
+    decoyDuck.performFly();
   }
 }
