@@ -1,5 +1,9 @@
 # Strategy Pattern - Ducks example
 
+## Strategy Pattern definition
+The Strategy Pattern defines a family of algorithms, encapsulates each one,
+and makes them interchangeable. Strategy lets the algorithm vary independently of clients that use it. 
+
 > **Note:** I use the term *super class* and *concrete class* to refer to the inheritance relationship of two classes.
 
 ## Motivation
