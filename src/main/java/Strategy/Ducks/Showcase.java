@@ -1,6 +1,8 @@
 package Strategy.Ducks;
 
-public class Showcase {
+import Main.Showcase;
+
+public class DucksShowcase implements Showcase {
   public void show() {
     System.out.println("Welcome to the Duck Watching Show.");
     FlyBehavior flyWithWings = new FlyWithWings();

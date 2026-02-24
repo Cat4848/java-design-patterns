@@ -1,10 +1,10 @@
 package Main;
 
-import Strategy.Ducks.Showcase;
+import Strategy.Ducks.DucksShowcase;
 
 public class Main {
   public static void main(String[] args) {
-    Showcase showcaseDucks = new Showcase();
-    showcaseDucks.show();
+    Showcase ducksShowcase = new DucksShowcase();
+    ducksShowcase.show();
   }
 }
