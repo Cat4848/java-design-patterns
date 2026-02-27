@@ -7,6 +7,7 @@ public abstract class Pizza {
   Pepperoni pepperoni;
   Clams clams;
   String name;
+  IngredientsFactory ingredientsFactory;
 
   abstract void prepare();
 

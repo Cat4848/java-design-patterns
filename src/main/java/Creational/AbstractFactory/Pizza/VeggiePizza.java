@@ -1,7 +1,7 @@
 package Creational.AbstractFactory.Pizza;
 
-public class CheesePizza extends Pizza {
-  public CheesePizza(IngredientsFactory ingredientsFactory) {
+public class VeggiePizza extends Pizza {
+  public VeggiePizza(IngredientsFactory ingredientsFactory) {
     this.ingredientsFactory = ingredientsFactory;
   }
 
@@ -9,8 +9,5 @@ public class CheesePizza extends Pizza {
     dough = ingredientsFactory.makeDough();
     sauce = ingredientsFactory.makeSauce();
     cheese = ingredientsFactory.makeCheese();
-    pepperoni = ingredientsFactory.makePepperoni();
-    clams = ingredientsFactory.makeClams();
   }
-
 }
