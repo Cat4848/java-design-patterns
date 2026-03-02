@@ -3,7 +3,7 @@ package Creational.AbstractFactory.Pizza;
 public abstract class PizzaStore {
   IngredientsFactory ingredientsFactory;
 
-  private Pizza orderPizza(String type) {
+  public Pizza orderPizza(String type) {
     Pizza pizza = makePizza(type);
     pizza.prepare();
     pizza.bake();

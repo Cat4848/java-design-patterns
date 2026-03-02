@@ -20,6 +20,6 @@ public abstract class Pizza {
   }
 
   public void box() {
-    System.out.println("We are boxing your " + name + " pizza");
+  System.out.println("We are boxing your " + name);
   }
 }

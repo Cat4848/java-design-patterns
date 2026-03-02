@@ -11,6 +11,7 @@ public class CheesePizza extends Pizza {
     cheese = ingredientsFactory.makeCheese();
     pepperoni = ingredientsFactory.makePepperoni();
     clams = ingredientsFactory.makeClams();
+    name = ingredientsFactory.getSource() + " style cheese pizza";
   }
 
 }

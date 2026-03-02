@@ -1,6 +1,8 @@
 package Creational.AbstractFactory.Pizza;
 
 public class NYIngredientsFactory implements IngredientsFactory {
+  final String source = "New York";
+
   public Dough makeDough() {
     return new ThinCrustDough();
   }
@@ -19,5 +21,9 @@ public class NYIngredientsFactory implements IngredientsFactory {
 
   public Clams makeClams() {
     return new FreshClams();
+  }
+
+  public String getSource() {
+    return source;
   }
 }
