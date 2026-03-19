@@ -3,6 +3,7 @@ package Main;
 import Creational.AbstractFactory.Pizza.AbstractFactoryShowcase;
 import Strategy.Ducks.DucksShowcase;
 import Creational.FactoryMethod.Pizza.PizzaFactoryMethodShowcase;
+import Behavioral.Observer.WeatherStation.BehavioralWeatherStationShowcase;
 
 public class Main {
   public static void main(String[] args) {
@@ -13,5 +14,8 @@ public class Main {
 
 //    Showcase abstractFactoryShowcase = new AbstractFactoryShowcase();
 //    abstractFactoryShowcase.show();
+
+//    Showcase behavioralWeatherStation = new BehavioralWeatherStationShowcase();
+//    behavioralWeatherStation.show();
   }
 }
